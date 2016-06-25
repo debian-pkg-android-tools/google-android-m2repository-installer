@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+        mkdir -p /var/cache/google-android-m2repository-installer
+        cp /usr/share/google-android-m2repository-installer/Makefile \
+            /usr/share/google-android-m2repository-installer/android_m2repository_r33.zip.sha1 \
+            /var/cache/google-android-m2repository-installer/
+        make -C /var/cache/google-android-m2repository-installer/ install
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

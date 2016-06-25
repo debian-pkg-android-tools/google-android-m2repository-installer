@@ -1,4 +1,4 @@
-t: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: google-android-build-tools-installer
 Source: http://anonscm.debian.org/gitweb/?p=android-tools/google-android-m2repository-installer.git
 

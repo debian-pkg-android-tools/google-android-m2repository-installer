@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: google-android-build-tools-installer
+Upstream-Name: google-android-m2repository-installer
 Source: http://anonscm.debian.org/gitweb/?p=android-tools/google-android-m2repository-installer.git
 
 Files: *
@@ -7,9 +7,9 @@ Copyright: public-domain
 License: public-domain
 
 License: public-domain
- Hans-Christoph Steiner wrote the files included here, he renounces all
- copyright on these files. The files that constitute
- google-android-build-tools-installer are in the public domain.
+ Mouaad Aallam wrote the files included here, he renounces all copyright on
+ these files. The files that constitute google-android-m2repository-installer
+ are in the public domain.
  .
  The contents of this project are dedicated to the public domain. To the extent
  that dedication to the public domain is not available, everyone is granted a

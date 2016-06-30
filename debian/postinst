@@ -4,7 +4,7 @@ set -e
 
 case "$1" in
     configure)
-        mkdir -p /var/cache/google-android-m2repository-installer
+        install -d -m0700 -o nobody -g nogroup /var/cache/google-android-m2repository-installer
         cp /usr/share/google-android-m2repository-installer/Makefile \
             /usr/share/google-android-m2repository-installer/android_m2repository_r33.zip.sha1 \
             /var/cache/google-android-m2repository-installer/

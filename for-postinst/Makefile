@@ -7,9 +7,9 @@ PKG_SOURCE_URL:=https://dl.google.com/android/repository/${PKG_SOURCE}
 DL_DIR=/var/cache/google-android-m2repository-installer
 UNPACK_DIR=$(DL_DIR)/m2repository
 INSTALL_DIR=/usr/lib/android-sdk/extras/android
-DOC_DIR=/usr/share/doc/google-android-m2repository
+DOC_DIR=/usr/share/doc/google-android-${PKG_NAME}
 
-all: $(DL_DIR)/$(UNPACK_DIR)/source.properties
+all: $(UNPACK_DIR)/source.properties
 
 install: all
 	install -d -m0755 $(DOC_DIR)
@@ -17,17 +17,16 @@ install: all
 	install -m0644 $(UNPACK_DIR)/source.properties $(DOC_DIR)/
 	install -d -m0755 $(INSTALL_DIR)
 	mv $(UNPACK_DIR) $(INSTALL_DIR)/
+	find ${INSTALL_DIR} | sort >> /var/lib/dpkg/info/google-android-${PKG_NAME}-installer.list
+	find ${DOC_DIR} | sort >> /var/lib/dpkg/info/google-android-${PKG_NAME}-installer.list
 
-$(DL_DIR)/$(UNPACK_DIR)/source.properties: $(DL_DIR)/$(PKG_SOURCE)
+$(UNPACK_DIR)/source.properties: $(DL_DIR)/$(PKG_SOURCE)
 	cd $(DL_DIR) && unzip -ou $(PKG_SOURCE)
 
-$(DL_DIR)/$(PKG_SOURCE): $(DL_DIR)
+$(DL_DIR)/$(PKG_SOURCE):
 	cd $(DL_DIR) && \
-		wget --continue $(PKG_SOURCE_URL)
+		su nobody -s /bin/sh -c "wget --continue $(PKG_SOURCE_URL)"
 	sha1sum -c $(PKG_SOURCE).sha1
-
-$(DL_DIR):
-	install -d -m0700 $(DL_DIR)
 
 clean:
 	-rm -rf -- $(UNPACK_DIR)

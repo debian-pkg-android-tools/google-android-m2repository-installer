@@ -1,0 +1,6 @@
+Template: google-android-m2repository-installer/mirror
+Type: select
+Choices: dl-ssl.google.com, mirrors.neusoft.edu.cn
+Default: dl-ssl.google.com
+_Description: Mirror to download Android Support M2 Repository ?
+ Please select your prefered mirror to download Android Support M2 Repository from.

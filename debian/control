@@ -15,6 +15,8 @@ Depends: wget,
          make | build-essential | dpkg-dev,
          unzip,
          ca-certificates,
+         debconf,
+         po-debconf,
          ${misc:Depends}
 Description: Google Android support m2 repository
  This package will download the Google Android Support Library repository and 

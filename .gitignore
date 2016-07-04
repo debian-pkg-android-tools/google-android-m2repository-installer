@@ -2,4 +2,5 @@ debian/debhelper-build-stamp
 debian/files
 debian/google-android-m2repository-installer/
 debian/google-android-m2repository-installer.debhelper.log
+debian/google-android-m2repository-installer.postrm.debhelper
 debian/google-android-m2repository-installer.substvars

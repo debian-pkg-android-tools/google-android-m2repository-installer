@@ -1,4 +1,4 @@
-google-android-m2repository-installer (33.1) unstable; urgency=medium
+google-android-m2repository-installer (33+1) unstable; urgency=medium
 
   * Create download folder and download archive as nobody:nogroupe
   * Add Mirrors choosing feature with debconf

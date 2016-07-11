@@ -2,7 +2,7 @@ PKG_NAME:=m2repository
 PKG_VERSION:=33
 
 PKG_SOURCE:=android_${PKG_NAME}_r${PKG_VERSION}.zip
-PKG_SOURCE_URL:=http://${DL_MIRROR}/android/repository/${PKG_SOURCE}
+PKG_SOURCE_URL:=${DL_MIRROR}/android/repository/${PKG_SOURCE}
 
 DL_DIR=/var/cache/google-android-m2repository-installer
 UNPACK_DIR=$(DL_DIR)/m2repository

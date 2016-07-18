@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: google-android-m2repository-installer\n"
 "Report-Msgid-Bugs-To: google-android-m2repository-installer@packages.debian."
 "org\n"
-"POT-Creation-Date: 2016-07-04 20:59+0000\n"
+"POT-Creation-Date: 2016-07-18 13:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,13 @@ msgstr ""
 #. Type: select
 #. Description
 #: ../templates:1001
-msgid "Mirror to download Android Support M2 Repository ?"
+msgid "Mirror to download packages ?"
 msgstr ""
 
 #. Type: select
 #. Description
 #: ../templates:1001
 msgid ""
-"Please select your prefered mirror to download Android Support M2 Repository "
+"Please select your prefered mirror to download Google's Android packages "
 "from."
 msgstr ""

@@ -1,8 +1,9 @@
-google-android-m2repository-installer (33+1) unstable; urgency=medium
+google-android-m2repository-installer (35) unstable; urgency=medium
 
   * Create download folder and download archive as nobody:nogroup
   * Add mirror choosing feature with debconf shared template
   * Minor Makefile update (Closes: #832413)
+  * Update to revision 35
 
  -- Mouaad Aallam <Mouaad@Aallam.com>  Mon, 04 Jul 2016 20:40:07 +0000
 

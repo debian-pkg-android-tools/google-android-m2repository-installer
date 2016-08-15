@@ -7,7 +7,7 @@ google-android-m2repository-installer (35+2) unstable; urgency=medium
 google-android-m2repository-installer (35+1) unstable; urgency=medium
 
   * Add Indonesian PO translation (Closes: #833393)
-  * Add Portuguese PO translation (Closes: #833400, #833468)
+  * Add Portuguese PO translation (Closes: #833400 #833468)
   * Add German PO transalation (Closes: #833519)
 
  -- Mouaad Aallam <Mouaad@Aallam.com>  Tue, 09 Aug 2016 16:28:10 +0000

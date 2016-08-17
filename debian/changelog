@@ -1,6 +1,7 @@
-google-android-m2repository-installer (35+2) unstable; urgency=medium
+google-android-m2repository-installer (36) unstable; urgency=medium
 
-  * Add Czech PO translation (Closes: #834122)
+  * Update to revision 36
+  * Add Czech PO translation file (Closes: #834122)
 
  -- Mouaad Aallam <Mouaad@Aallam.com>  Sun, 14 Aug 2016 15:53:30 +0000
 

@@ -1,5 +1,5 @@
 PKG_NAME:=m2repository
-PKG_VERSION:=35
+PKG_VERSION:=36
 
 PKG_SOURCE:=android_${PKG_NAME}_r${PKG_VERSION}.zip
 PKG_SOURCE_URL:=${DL_MIRROR}/android/repository/${PKG_SOURCE}

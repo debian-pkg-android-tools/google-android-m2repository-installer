@@ -2,6 +2,7 @@ google-android-m2repository-installer (36) unstable; urgency=medium
 
   * Update to revision 36
   * Add Czech PO translation file (Closes: #834122)
+  * Add Dutch PO translation file (Closes: #834621)
 
  -- Mouaad Aallam <Mouaad@Aallam.com>  Sun, 14 Aug 2016 15:53:30 +0000
 
